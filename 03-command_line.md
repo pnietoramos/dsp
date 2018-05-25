@@ -36,15 +36,14 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`  -> list the files and directories in the present directory  
+`ls -a`   -> list the files and directories in the present directory including the entries starting with "."   
+`ls -l`  -> list the files and directories in the present directory with a long listing format  
+`ls -lh` -> list the files and directories in the present directory with a long listing format and a more readable file sizes     
+`ls -lah` -> list the files and directories in the present directory with a long listing format and a more readable file sizes including the entries starting with "."   
+`ls -t`  -> list the files and directories in the present directory sorted by modification time  
+`ls -Glp` -> list the files and directories in the present directory with a long listing format without group names and adding "/" in the name of the directories.   
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
