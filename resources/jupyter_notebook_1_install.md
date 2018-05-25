@@ -24,7 +24,15 @@ Note:  The notebook will open at the directory in which you launch the notebook 
 ```
 $ jupyter notebook
 ```
->my example
+[I 14:08:17.879 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 14:08:18.603 NotebookApp] JupyterLab beta preview extension loaded from /home/pnietoramos/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 14:08:18.603 NotebookApp] JupyterLab application directory is /home/pnietoramos/anaconda3/share/jupyter/lab
+[I 14:08:18.621 NotebookApp] Serving notebooks from local directory: /home/pnietoramos
+[I 14:08:18.621 NotebookApp] 0 active kernels
+[I 14:08:18.622 NotebookApp] The Jupyter Notebook is running at:
+[I 14:08:18.622 NotebookApp] http://localhost:8888/?token=0c4b0d0d7647d111a54501a1ffbe318587a7617ba915b026
+[I 14:08:18.622 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
 ```console
 reshama$ jupyter notebook
 [I 11:41:22.769 NotebookApp] Serving notebooks from local directory: /Users/reshamashaikh/_ds/metis
@@ -38,7 +46,16 @@ At terminal prompt:
  * control + c
  * type:  `y`
  
->my example 
+^C[I 14:24:59.379 NotebookApp] interrupted
+Serving notebooks from local directory: /home/pnietoramos
+1 active kernel
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=0c4b0d0d7647d111a54501a1ffbe318587a7617ba915b026
+Shutdown this notebook server (y/[n])? y
+[C 14:25:03.698 NotebookApp] Shutdown confirmed
+[I 14:25:03.699 NotebookApp] Shutting down 1 kernel
+[I 14:25:04.101 NotebookApp] Kernel shutdown: 4ab9187a-e0b0-44f6-a590-b297abc9e167
+
 ```console
 ^C[I 11:43:35.486 NotebookApp] interrupted
 Serving notebooks from local directory: /Users/reshamashaikh/_ds/metis
