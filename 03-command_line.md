@@ -20,16 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-pwd -> show current working directory path
-mkdir directory -> creating a directory
-rm -r directory -> deleting a directory
-touch file ->  creating a file using `touch` command
-rm file** -> deleting a file
-mv old_file new_fie -> renaming a file
-ls -a -> listing hidden files
-mv file directory -> copying a file from one directory to another
-chmod 444 file -> set the permission of a file only to read by all users
-cat file1 file2 >> fileF -> creates a fileF which is a contcatenation of the contents of file1 and file2 
+pwd -> show current working directory path  
+mkdir directory -> creating a directory  
+rm -r directory -> deleting a directory  
+touch file ->  creating a file using `touch` command  
+rm file** -> deleting a file  
+mv old_file new_fie -> renaming a file  
+ls -a -> listing hidden files  
+mv file directory -> copying a file from one directory to another  
+chmod 444 file -> set the permission of a file only to read by all users  
+cat file1 file2 >> fileF -> creates a fileF which is a contcatenation of the contents of file1 and file2  
 
 ---
 
