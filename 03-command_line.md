@@ -61,7 +61,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 Executes a command or a set of commands:  
-**ls *.ipynb | xargs -i mv {} Exercise{}** -> Renames all files with extension ".ipynb" as "Exercise*.ipynb"    
+**ls \*.ipynb | xargs -i mv {} Exercise{}** -> Renames all files with extension ".ipynb" as "Exercise*.ipynb"    
 **find . -name file_names | xargs -i cp {} directory** -> This one finds all files with name "file_name" and copies them in directory.   
 
 
