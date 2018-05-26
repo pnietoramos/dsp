@@ -29,7 +29,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 **ls -a** -> listing hidden files  
 **mv file directory** -> copying a file from one directory to another  
 **chmod 444 file** -> set the permission of a file only to read by all users  
-**cat file1 file2** >> fileF -> creates a fileF which is a contcatenation of the contents of file1 and file2  
+**cat file1 file2** -> fileF -> creates a fileF which is a contcatenation of the contents of file1 and file2
+**find -name "*.py"** -> Find all files with extension ".py" in the present directory and subdirectories
 
 ---
 
@@ -59,7 +60,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Executes a command or a set of commands:  
+**ls *.ipynb | xargs -i mv {} Exercise{}** -> Renames all files with extension ".ipynb" as "Exercise*.ipynb"    
+**find . -name file_names | xargs -i cp {} directory** -> This one finds all files with name "file_name" and copies them in directory.   
+
 
  
 
